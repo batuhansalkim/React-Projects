@@ -1,14 +1,79 @@
-body{
-  background-color:rgb(255, 198, 242);
-  position: absolute;
-}
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
 }
 .hero{
-  background-color: rgb(53, 254, 160);
-  
-
+  width: 100%;
+  min-height: 100vh;
+  background: #F4BFBF;
+  color: black;
+  font-weight: bold;
+  display: flex;
 }
+.hero .container{
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color:#FFD9C0;
+}
+.hero .container .randomNum{
+  background: #FAF0D7;
+  padding:20px;
+  min-width: 100%;
+  text-align: center;
+}
+.hero .container .randomNum p span{
+    color: red;
+    font-weight: bold;
+}
+/* 
+
+.hero .container .randomNum p span{
+    color: red;
+    font-weight: bold;
+}
+.hero .numContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+    min-width: 100%;
+}
+.hero .container div{
+    width: 100%;
+    max-width: 42%;
+}
+.hero .numContainer div input{
+    padding: 8px;
+    border: none;
+    outline: none;
+    width: 100%;
+    background: #FAF0D7;
+    color: red;
+    font-weight: bold;
+}
+.hero .container button{
+    align-items: flex-end;
+    border: none;
+    outline: none;
+    background: #FAF0D7;
+    color: black;
+    font-weight: bold;
+    padding: 14px;
+    width: 100%;
+    font-size: 22px;
+    cursor: pointer;
+    transition: .4s;
+}
+.hero .container button:hover{
+    background-color: black;
+    color: #FAF0D7;
+}
+
+
+
+ */
