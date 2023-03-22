@@ -1,0 +1,28 @@
+.card{
+    margin: 20px 10px;
+    color: black;
+    background-color: red;
+    width: 20%;
+    height: 380px;
+    text-align: center;
+}
+.cardBody{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+.cardBody img{
+    text-align: center;
+    margin: auto;
+    border: 3px solid black;
+}
+.cardBody h2{
+    margin-top: 10px;
+}
+.cardBody p{
+    margin-top: 15px;
+}
+.cardBody button{
+    margin-top: 15px;
+}
