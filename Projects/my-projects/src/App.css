@@ -31,43 +31,37 @@ font-family: sans-serif;
     color: red;
     font-weight: bold;
 }
-/* 
-
-.hero .container .randomNum p span{
-    color: red;
-    font-weight: bold;
-}
 .hero .numContainer{
-    display: flex;
-    justify-content: space-between;
-    padding: 60px 0;
-    min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+  min-width: 100%;
 }
 .hero .container div{
-    width: 100%;
-    max-width: 42%;
+  width: 100%;
+  max-width: 42%;
 }
 .hero .numContainer div input{
-    padding: 8px;
-    border: none;
-    outline: none;
-    width: 100%;
-    background: #FAF0D7;
-    color: red;
-    font-weight: bold;
+  padding: 8px;
+  border: none;
+  outline: none;
+  width: 100%;
+  background: #FAF0D7;
+  color: red;
+  font-weight: bold;
 }
 .hero .container button{
-    align-items: flex-end;
-    border: none;
-    outline: none;
-    background: #FAF0D7;
-    color: black;
-    font-weight: bold;
-    padding: 14px;
-    width: 100%;
-    font-size: 22px;
-    cursor: pointer;
-    transition: .4s;
+  align-items: flex-end;
+  border: none;
+  outline: none;
+  background: #FAF0D7;
+  color: black;
+  font-weight: bold;
+  padding: 14px;
+  width: 100%;
+  font-size: 22px;
+  cursor: pointer;
+  transition: .4s;
 }
 .hero .container button:hover{
     background-color: black;
@@ -75,5 +69,3 @@ font-family: sans-serif;
 }
 
 
-
- */
