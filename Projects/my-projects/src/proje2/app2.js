@@ -11,10 +11,15 @@ export const App2 =()=>{
                 <img src={selectedImg} alt="selected" className="selected" />
             </div>
             <div className="imgContainer">
-                {Images.map((img,index)=>(
+                {/* {Images.map((img,index)=>(
                     <img key={index} src={img} alt="tantuni" onClick={()=> setSelectedImg(img)}/>
+                ))} */}
+                {Images.map((img)=>(
+                    <img src={img} alt="tantuni" onClick={()=>setSelectedImg(img
+                        )}/>
                 ))}
             </div>
         </div>
     );
+    
 }
