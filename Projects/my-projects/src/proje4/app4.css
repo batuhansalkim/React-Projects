@@ -1,0 +1,42 @@
+.App4{
+    
+    width: 620px;
+    height: 240px;
+    padding: 20px;
+    background-color: skyblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -310px;
+    margin-top: -120px;
+}
+.container1{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.container1 button{
+    position: relative;
+    background: black;
+    color: white;
+    
+}
+.container1 .text{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: brown;
+    font-size: 27px;
+}
+.container1 .author{
+    margin: 20px 0 ;
+    color: darkblue;
+}
+.container1 button{
+    border-radius: 20px;
+    box-shadow: 5px 4px 5px 4px rgba(0, 0, 0, 0.4);
+    width: 30%;
+    height: 30px; 
+    margin: auto;
+}
