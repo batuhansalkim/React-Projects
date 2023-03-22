@@ -7,6 +7,7 @@
     flex-direction: column;
     background-color: #FFD56B;
     color: #333;
+    margin-top: 50px;
 }
 input{
     height: 20px;
@@ -21,18 +22,23 @@ ul{
     
 }
 li{
-    padding: 7px 0;
-    margin: 5px;
-    width: 300px;
+    padding: 5px 20px ;
+    width: 350px;
     height: 40px;
-    
+    background-color: #54eaef;
     list-style-type: none;
-    text-decoration: none;
-    background: rgb(98, 98, 251);
-    color: white;
+    text-align: start;
+    border-bottom: 2px solid #FF7B54;
+    margin-top: 10px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: .7s;
 }
 button{
     padding: 5px 25px;
+    letter-spacing: 2px;
+    font-size: 16px;
     border-radius: 5px;
     border: none;
     outline: none;
