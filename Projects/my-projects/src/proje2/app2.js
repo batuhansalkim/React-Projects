@@ -4,13 +4,16 @@ import "../proje2/proje2.css";
 
 
 export const App2 =()=>{
+    const [selectedImg, setSelectedImg] = useState(Images[0]);
     return(
-        <div className="App">
+        <div className="App2">
             <div className="container">
-                <img src="" alt="selected" className="selected" />
+                <img src={selectedImg} alt="selected" className="selected" />
             </div>
             <div className="imgContainer">
-                <img src="" alt="tantuni" />
+                {Images.map((img,index)=>(
+                    <img key={index} src={img} alt="tantuni" onClick={()=> setSelectedImg(img)}/>
+                ))}
             </div>
         </div>
     );
