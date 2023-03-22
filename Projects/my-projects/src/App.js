@@ -7,7 +7,7 @@ function App() {
   const [randomNumber, setRandomNumber] = useState(5);
 
   const generateRandomNumber=()=>{
-    setRandomNumber(Math.floor(Math.random()* (maxVal-minVal+1)+minVal))
+    setRandomNumber(Math.floor(Math.random()* (maxVal-minVal+1)))
   }
   
   return (
