@@ -15,7 +15,7 @@ import App8 from './proje8/App8';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Appapi />
+    <App8 />
   </React.StrictMode>
 );
 
