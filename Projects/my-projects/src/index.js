@@ -8,10 +8,12 @@ import reportWebVitals from './reportWebVitals';
 import { App4 } from './proje4/app4';
 import Appbatu from './proje5/app5';
 import App6 from './proje6/app6';
+import App7 from './proje7/App7';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App6/>
+    <App7/>
   </React.StrictMode>
 );
 
