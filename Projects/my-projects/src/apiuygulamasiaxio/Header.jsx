@@ -2,7 +2,7 @@ import React from "react";
 const Header = ()=>{
     return(
         <header>
-            Batuhan Salkım
+            Api Kullanarak Veri Çekme Projesi
         </header>
     )
 }
