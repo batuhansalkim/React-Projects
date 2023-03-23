@@ -1,12 +1,5 @@
-import { Header } from "./Header";
-import { UserList } from "./UserList";
-function Appapi(){
+export const = ()=>{
     return(
-        <div>
-            <Header/>
-            <UserList/>
-        </div>
+        
     )
 }
-
-export default Appapi;
