@@ -15,15 +15,7 @@ const UserList = ()=>{
     useEffect(()=>{
         fetchUsers();
     },[])
-    // const [users,setUsers] = useState([]);
-
-    // const fetchUsers = async ()=>{
-    //     const response = await axios.get("https://randomuser.me/api/?results=5")
-    //     setUsers(response.data.results);
-    // }
-    // useEffect(()=>{
-    //     fetchUsers();
-    // },[])
+    
 
     return(
         <div className="userList">
@@ -32,13 +24,6 @@ const UserList = ()=>{
                     <li><SingleUser user={user} key={id}/></li>
                 ))}
             </ul>
-            {/* <ul>
-                {
-                    users.map((user,id)=>(
-                        <li><SingleUser user={user} key={id}/></li>
-                    ))
-                }
-            </ul> */}
         </div>
     )
 }
