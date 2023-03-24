@@ -1,5 +1,6 @@
-import { useState } from "react"
+import { useState } from "react";
 import "../proje10/app10.css";
+
 export const App10=()=> {
 
     const [hex,setHex] = useState("#ffffff");
