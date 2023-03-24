@@ -5,16 +5,16 @@ function App12(){
    const [users,setUsers] = useState();
    const ProfilData = async()=>{
         const res = await axios.get("https://randomuser.me/api");
-        setUsers(res.data.results);
+        console.log(res);
+        setUsers(res.data.results[0]);
    }
-   useEffect(()=>{
-    ProfilData();
-   },[])
+   
     return(
-    <div className="App">
-        
-        <button onClick={ProfilData}>Click</button>
-
+    <div className="App" >
+        <div className="profileContainer">
+            <img src={users.picture.large} alt="" />
+        </div>
+        <button onClick={ProfilData}>click</button>
     </div>
    ) 
 }

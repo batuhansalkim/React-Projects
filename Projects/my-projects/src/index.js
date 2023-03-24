@@ -14,12 +14,12 @@ import App8 from './proje8/App8';
 import App9 from './proje9/App9';
 import { App10 } from './proje10/App10';
 import App11 from './11/App11';
-
+import App12 from './12/App12';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App11 />
+    <App12 />
   </React.StrictMode>
 );
 
