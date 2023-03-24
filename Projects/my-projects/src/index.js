@@ -11,11 +11,12 @@ import App6 from './proje6/app6';
 import App7 from './proje7/App7';
 import Appapi from './apiuygulamasiaxio/appapi';
 import App8 from './proje8/App8';
+import App9 from './proje9/App9';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App8 />
+    <App9 />
   </React.StrictMode>
 );
 
