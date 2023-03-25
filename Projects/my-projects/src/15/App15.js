@@ -1,6 +1,6 @@
 export const App15=()=>{
     return(
-        <div>
+        <div className="App">
             batu
         </div>
     )
