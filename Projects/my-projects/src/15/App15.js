@@ -1,9 +1,15 @@
-import { Navbar } from "./Navbar"
-export const App15=()=>{
+import React from "react";
+import "../15/app15.css";
+import { Footer } from "./footer";
+import { Header } from "./header";
+import { Main } from "./main";
+
+export function App15(){
     return(
-        <div className="App">
-            batu
-            <Navbar/>
+        <div>
+            <Header/>
+            <Main/>
+            <Footer />
         </div>
     )
 }

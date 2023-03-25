@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.social{
+    display: flex;    
+
+}
+.social .soci{
+    margin: 0px 30px;
+    font-size: 30px;
+}
+.copyright{
+    margin-top: 30px;
+}
