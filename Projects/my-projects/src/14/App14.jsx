@@ -1,15 +1,16 @@
-import React,{useState,useEffect} from "react";
-import "../14/app14.css";
-import { Header } from "./Header";
-import "../14/app14.css";
-import MemeGenerator from "./MemeGenerator";
-
-function App14(){
-    return(
-        <div>
-            <Header name="Meme Generator"/>
-            <MemeGenerator/>
-        </div>
-    )
+import React from 'react';
+import '../14/app14.css';
+import Header from '../14/Header';
+import MemeGenerator from '../14/MemeGenerator';
+function App() {
+  return (
+    <div className="App">
+      <Header 
+      name="Meme Generator"
+      />
+      <MemeGenerator />
+    </div>
+  );
 }
-export default App14;
+
+export default App;
