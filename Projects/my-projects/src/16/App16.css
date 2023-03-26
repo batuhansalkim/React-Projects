@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.progressMainWrapper{
+    background-color: #393E46;
+    height: 15px;
+    position:sticky ;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+.progressMainStyle{
+    height: 15px;
+    background-color: #00ADB5;
+}
+
+h1{
+    color: #393E46;
+    letter-spacing: 2px;
+    margin: 20px;
+    text-align: center;
+}
+p{
+    width: 70%;
+    margin: 0 auto;
+    color: #393E46;
+    font-weight: bold;
+    text-align: left;
+}
