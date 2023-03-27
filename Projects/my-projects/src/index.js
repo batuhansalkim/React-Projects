@@ -20,11 +20,12 @@ import { App13 } from './13/App13';
 import { App15 } from './15/App15';
 import { App16 } from './16/App16';
 import App17 from './17/App17';
+import { App18 } from './18/App18';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App17 />
+    <App18 />
   </React.StrictMode>
 );
 

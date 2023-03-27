@@ -51,7 +51,7 @@ export const Review=()=>{
                     <FaChevronCircleRight onClick={NextBtn}/>
                 </button>
             </div>
-            <button className="next-btn" onClick={RandomBtn}>
+            <button className="random-btn" onClick={RandomBtn}>
                 Random Character
             </button>
         </div>
