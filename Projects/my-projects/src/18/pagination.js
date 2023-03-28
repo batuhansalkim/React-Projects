@@ -5,7 +5,7 @@ function pagination({ totalPages, handleClick }) {
     return (
         <div>
            {pages.map((num=>(
-            <button>{num}</button>
+            <button onClick={()=>handleClick(num)}>{num}</button>
            )))}
         </div>
     )

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Users from '../18/users';
 import Pagination from "../18/pagination";
-
+import "../18/app18.css"
 
 function App18() {
     const [users, setUsers] = useState([]);
@@ -20,16 +20,19 @@ function App18() {
         }
         fetchUsers();
     },[])
-
+    const handleClick = num =>{
+        setPage(num);
+    }
 
     return(
         <div>
             <h1>Pagination App</h1>
+            <h5>Page: {page}</h5>
             {
                 loading ? <p>Loading...</p> : 
                 <>
                 <Users users={users} page={page}/>
-                <Pagination totalPages={totalPages}/>
+                <Pagination totalPages={totalPages} handleClick={handleClick}/>
                 </>
             }
             
