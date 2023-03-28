@@ -8,7 +8,6 @@ function App19() {
         <h1 className='mainH1'>Image Gallery</h1>
         <Gallery/>
     </>
-  )
+  );
 }
-
-export default App19
+export default App19;
