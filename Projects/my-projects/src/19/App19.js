@@ -6,6 +6,7 @@ function App19() {
   return (
     <>
         <h1 className='mainH1'>Image Gallery</h1>
+        <Gallery/>
     </>
   )
 }
