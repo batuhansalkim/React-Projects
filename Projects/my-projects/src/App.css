@@ -1,4 +1,117 @@
-/* *{
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero{
+  background-color: palevioletred;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container{
+  background-color: antiquewhite;
+  width: 45%;
+  height: 350px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 3px 1px rgba(0.2, 0.2, 0.3, 0.5);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.random{
+  margin: 30px 0px;
+  font-size: 20px;
+  color: black;
+  background-color: aqua;
+  width: 90%;
+  height: 50px;
+  /* border-radius: 10px; */
+  justify-content: center;
+  align-items:start;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  
+}
+ span{
+  font-size: 25px;
+  color: rgb(17, 0, 255);
+}
+.degerler{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0px 0px 30px 0px;
+
+}
+
+.degerler .min{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 40%;
+}
+.degerler .max{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 40%;
+}
+.degerler .min input{
+  width: 100%;
+  height: 25px;
+
+}
+.degerler .max input{
+  width: 100%;
+    height: 25px;
+
+}
+.btn{
+  padding: 10px 10px ;
+  border-radius: 5px;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+}
+.btn:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(174, 110, 27);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+*
+
+{
 margin: 0;
 padding: 0;
 box-sizing: border-box;

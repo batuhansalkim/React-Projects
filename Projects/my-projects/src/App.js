@@ -1,35 +1,35 @@
-import React,{useState} from 'react';
-import './App.css';
+import React,{useState} from "react";
+import "./App.css";
 
-function App() {
-  const [maxVal,setMaxVal] = useState(0);
-  const [minVal,setMinVal] = useState(0);
-  const [randomNumber, setRandomNumber] = useState(5);
+function App(){
 
-  const generateRandomNumber=()=>{
-    setRandomNumber(Math.floor(Math.random()* (maxVal-minVal+1)))
+  const [minDeger, setMinDeger] =useState(0);
+  const [maxDeger, setMaxDeger] =useState(0);
+  const [randomDeger, setRandomDeger] =useState();
+
+  function RandomSayiOlustur(){
+    setRandomDeger(Math.floor(Math.random()* (maxDeger - minDeger +1)+minDeger));
   }
-  
-  return (
+
+  return(
     <div className="hero">
       <div className="container">
-        <div className="randomNum">
-          <p>Random Number: <span>{randomNumber}</span></p>
+        <div className="random">
+          <p>Random Number : <span>{randomDeger}</span> </p>
         </div>
-        <div className="numContainer">
-          <div>
-            <p>Min: {minVal}</p>
-            <input type="number" onChange={e=>setMinVal(e.target.value)} />
+        <div className="degerler">
+          <div className="min">
+            <p>Min : <span>{minDeger}</span></p>
+            <input type="number" onChange={e=>setMinDeger(e.target.value)}/>
           </div>
-          <div>
-            <p>Max: {maxVal}</p>
-            <input type="number" onChange={e=>setMaxVal(e.target.value)}/>
+          <div className="max">
+            <p>Max : <span>{maxDeger}</span> </p>
+            <input type="number" onChange={e=>setMaxDeger(e.target.value)} />
           </div>
         </div>
-        <button onClick={generateRandomNumber}>Get random number</button>
+        <button className="btn" onClick={RandomSayiOlustur}>Get Random Number </button>
       </div>
     </div>
-  );
-}
-
+  )
+} 
 export default App;
