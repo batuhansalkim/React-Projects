@@ -1,4 +1,4 @@
-*{
+/* *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -25,15 +25,14 @@
   flex-direction: column;
   align-items: center;
   
-}
-.random{
+} */
+/* .random{
   margin: 30px 0px;
   font-size: 20px;
   color: black;
   background-color: aqua;
   width: 90%;
   height: 50px;
-  /* border-radius: 10px; */
   justify-content: center;
   align-items:start;
   padding-left: 10px;
@@ -97,7 +96,7 @@
 
 
 
-
+ */
 
 
 

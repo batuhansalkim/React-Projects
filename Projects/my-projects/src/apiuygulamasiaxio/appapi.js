@@ -1,13 +1,17 @@
 import React from "react";
-import Header from "./Header";
-import UserList from "./UserList";
+import Header from "../apiuygulamasiaxio/Header";
 import "../apiuygulamasiaxio/appapi1.css";
 function Appapi(){
     return(
         <div>
             <Header/>
-            <UserList/>
         </div>
     )
+    // return(
+    //     <div>
+    //         <Header/>
+    //         <UserList/>
+    //     </div>
+    // )
 }
 export default Appapi;
