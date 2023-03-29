@@ -1,4 +1,4 @@
-/* *{
+*{
     margin:0;
     padding: 0;
     box-sizing: border-box;
@@ -23,12 +23,59 @@ header{
     font-size: 2rem;
 }
 .userList ul{
+    margin-top: 40px;
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
+.single-user{
+    background: rgba(0, 0, 0, 0.501);
+    width: 30%;
+    height: 270px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 3px 2px 3px 2px rgba(0, 0, 0, 0.4);
+}
+.single-user img{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+.user-info{
+    margin: 20px;
+}
+.user-info h3{
+    font-size: 22px;
+    margin: 0 0 30px 0;
+    position: left;
+    color:brown;
+    
+    
+}
+.user-info h3 span{
+    color: rgb(255, 156, 26);
+} 
+.user-info .user-mail
+{
+    font-size: 15px ;
+    color: black;
+    margin: 0 0 30px 0;
+}
+.user-info .user-location{
+    color: blue;
+
+
+}
+/*
+
 .userList ul li {
     list-style: none;
 }

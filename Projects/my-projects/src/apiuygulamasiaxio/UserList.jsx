@@ -4,27 +4,60 @@ import { useState,useEffect } from "react";
 import { SingleUser } from "./SingleUser";
 
 const UserList = ()=>{
-
-
     const [users,setUsers] = useState([]);
 
-    const fetchUsers = async()=>{
+    const fetchUsers= async()=>{
+
         const response = await axios.get("https://randomuser.me/api/?results=5");
         setUsers(response.data.results);
+        
     }
     useEffect(()=>{
         fetchUsers();
     },[])
-    
+
 
     return(
         <div className="userList">
             <ul>
-                {users.map((user,id)=>(
-                    <li><SingleUser user={user} key={id}/></li>
-                ))}
+                {
+                    users.map((item,id)=>(
+                        <SingleUser key={id} batu={item}/>
+                    ))
+                }
             </ul>
         </div>
     )
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // const fetchUsers = async()=>{
+    //     const response = await axios.get("https://randomuser.me/api/?results=5");
+    //     console.log(response.data.results);
+    // }
+    // useEffect(()=>{
+    //     fetchUsers();
+    // },[])
+    
+
+  
+        // <div className="userList">
+        //     <ul>
+        //         {users.map((user,id)=>(
+        //             <li><SingleUser user={user} key={id}/></li>
+        //         ))}
+        //     </ul>
+        // </div>
+    
 }
 export default UserList;
