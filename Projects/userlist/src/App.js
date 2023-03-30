@@ -1,10 +1,11 @@
 import './App.css';
-import axios from 'axios';
-import { useEffect } from 'react';
+import { Info } from './components/info';
+import Form from './components/form';
 function App() {
   return(
-    <div>
-      batu
+    <div className='App'>
+      <Form/>
+      <Info/>
     </div>
   )
 }
