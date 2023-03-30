@@ -5,10 +5,11 @@ import App from './App';
 import App1 from './1/App1';
 import reportWebVitals from './reportWebVitals';
 import App2 from './2/App2';
+import Navbar from './components/navbar';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App2 />
+    <Navbar />
   </React.StrictMode>
 );
 
