@@ -1,11 +1,12 @@
+import React,{useEffect,useState} from "react";
 import Amazon from "./components/amazon";
 import Navbar from "./components/navbar";
 function App(){
   return(
-    <div>
+    <React.Fragment>
       <Navbar/>
       <Amazon/>
-    </div>
+    </React.Fragment>
   )
 }
 export default App;
