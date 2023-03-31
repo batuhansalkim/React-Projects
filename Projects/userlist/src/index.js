@@ -6,10 +6,11 @@ import App1 from './1/App1';
 import reportWebVitals from './reportWebVitals';
 import App2 from './2/App2';
 import Navbar from './components/navbar';
+import App3 from './3/App3';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App3 />
   </React.StrictMode>
 );
 
