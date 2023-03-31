@@ -21,11 +21,13 @@ function App(){
     setCart([...arr]);
   }
 
-  
+
   return(
     <React.Fragment>
+      {/* <Navbar setShow={setShow} size={cart.length}/>
+      {show ? <Amazon handleClick={handleClick}/> : <Cart cart={cart} setCart={setCart} handleChange={handleChange}/>} */}
       <Navbar setShow={setShow} size={cart.length}/>
-      {show ? <Amazon handleClick={handleClick}/> : <Cart cart={cart} setCart={setCart} handleChange={handleChange}/>}
+      {show ? <Amazon handleClick={handleClick} /> : <Cart cart={cart} setCart={setCart} handleChange={handleChange}/>}
     </React.Fragment>
   )
 }
