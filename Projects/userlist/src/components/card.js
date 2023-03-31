@@ -11,7 +11,7 @@ export default function card({item}) {
                 <p>{title}</p>
                 <p>{author}</p>
                 <p>{price} TL</p>
-                <button>Add to Card</button>
+                <button className='btn'>Add to Card</button>
             </div>
         </div>
     )

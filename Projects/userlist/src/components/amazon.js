@@ -6,9 +6,11 @@ import '../styles/amazon.css';
 export default function amazon() {
     return (
         <section>
-            {list.map((item) => (
-                <Cards key={item.id} item={item} />
-            ))}
+            {
+                list.map((item)=>(
+                    <Cards key={item.id} item={item}/>
+                ))
+            }
         </section>
     );
 }
