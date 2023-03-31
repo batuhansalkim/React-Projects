@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function card({item}) {
+export default function card({item,handleClick}) {
     const { id, title, author, price, img } = item;
     return (
         <div className='cards'>
@@ -11,7 +11,7 @@ export default function card({item}) {
                 <p>{title}</p>
                 <p>{author}</p>
                 <p>{price} TL</p>
-                <button className='btn'>Add to Card</button>
+                <button className='btn' onClick={()=> handleClick(item)}>Add to Card</button>
             </div>
         </div>
     )
