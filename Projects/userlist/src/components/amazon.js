@@ -7,8 +7,8 @@ export default function amazon({handleClick}) {
     return (
         <section>
             {
-                list.map((item)=>(
-                    <Cards key={item.id} item={item} handleClick={handleClick}/>
+                list.map((item,id)=>(
+                    <Cards item={item} key={item.id} handleClick={handleClick}/>
                 ))
             }
         </section>
