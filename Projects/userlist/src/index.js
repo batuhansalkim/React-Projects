@@ -8,10 +8,11 @@ import App2 from './2/App2';
 import Navbar from './components/navbar';
 import App3 from './3/App3';
 import App4 from './4/App4';
+import App5 from './5/App5';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App4 />
+    <App5 />
   </React.StrictMode>
 );
 
