@@ -7,10 +7,11 @@ import reportWebVitals from './reportWebVitals';
 import App2 from './2/App2';
 import Navbar from './components/navbar';
 import App3 from './3/App3';
+import App4 from './4/App4';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App4 />
   </React.StrictMode>
 );
 
