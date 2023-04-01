@@ -10,11 +10,11 @@ import App3 from './3/App3';
 import App4 from './4/App4';
 import App5 from './5/App5';
 import App6 from './6/App6';
-
+import App7 from './7/App7';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App6 />
+    <App7 />
   </React.StrictMode>
 );
 
