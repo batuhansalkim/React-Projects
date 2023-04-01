@@ -34,4 +34,11 @@ export default [
         image:
             'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
     },
+    {
+        id: 6,
+        name: 'Batuhan Salkım',
+        age: 22,
+        image:
+            'https://media.licdn.com/dms/image/C4D03AQEohqwLUIK0yg/profile-displayphoto-shrink_400_400/0/1605612810263?e=1685577600&v=beta&t=aap9UUueDc1B32Opzu9Mi4uHA99Ze-Pqq7TBAuMAU4Y',
+    },
 ];
